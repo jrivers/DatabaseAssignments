@@ -1,0 +1,1111 @@
+SQL> start Midtermredo.sql
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ JOB_CODE                                  NOT NULL CHAR(3)
+ JOB_DESCRIPTION                                    VARCHAR2(255)
+ JOB_CHG_HOUR                                       NUMBER
+ JOB_LAST_UPDATE                                    DATE
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ EMP_NUM                                   NOT NULL CHAR(3)
+ EMP_LNAME                                          VARCHAR2(15)
+ EMP_FNAME                                          VARCHAR2(15)
+ EMP_INITIAL                                        CHAR(1)
+ EMP_HIREDATE                                       DATE
+ JOB_CODE                                           CHAR(3)
+ EMP_YEARS                                          NUMBER
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ PROJ_NUM                                  NOT NULL CHAR(2)
+ PROJ_NAME                                          VARCHAR2(55)
+ PROJ_VALUE                                         NUMBER
+ PROJ_BALANCE                                       NUMBER
+ EMP_NUM                                            CHAR(3)
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ ASSIGN_NUM                                NOT NULL CHAR(4)
+ ASSIGN_DATE                                        DATE
+ PROJ_NUM                                           CHAR(2)
+ EMP_NUM                                            CHAR(3)
+ ASSIGN_JOB                                         VARCHAR2(3)
+ ASSIGN_CHG_HR                                      FLOAT(8)
+ ASSIGN_HOURS                                       FLOAT(8)
+ ASSIGN_CHARGE                                      FLOAT(8)
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+JOB                                                                             
+---                                                                             
+JOB_DESCRIPTION                                                                 
+--------------------------------------------------------------------------------
+JOB_CHG_HOUR JOB_LAST_                                                          
+------------ ---------                                                          
+500                                                                             
+Programmer                                                                      
+       35.75 20-NOV-09                                                          
+                                                                                
+501                                                                             
+Systems Analyst                                                                 
+       35.75 20-NOV-09                                                          
+
+JOB                                                                             
+---                                                                             
+JOB_DESCRIPTION                                                                 
+--------------------------------------------------------------------------------
+JOB_CHG_HOUR JOB_LAST_                                                          
+------------ ---------                                                          
+                                                                                
+502                                                                             
+Database Designer                                                               
+         125 24-MAR-10                                                          
+                                                                                
+503                                                                             
+Electrical Engineer                                                             
+
+JOB                                                                             
+---                                                                             
+JOB_DESCRIPTION                                                                 
+--------------------------------------------------------------------------------
+JOB_CHG_HOUR JOB_LAST_                                                          
+------------ ---------                                                          
+        54.5 20-NOV-05                                                          
+                                                                                
+504                                                                             
+Mechanical Engineer                                                             
+        57.9 20-NOV-09                                                          
+                                                                                
+505                                                                             
+
+JOB                                                                             
+---                                                                             
+JOB_DESCRIPTION                                                                 
+--------------------------------------------------------------------------------
+JOB_CHG_HOUR JOB_LAST_                                                          
+------------ ---------                                                          
+Civil Engineer                                                                  
+       55.78 20-NOV-09                                                          
+                                                                                
+506                                                                             
+Clerical Support                                                                
+       25.87 20-NOV-09                                                          
+                                                                                
+
+JOB                                                                             
+---                                                                             
+JOB_DESCRIPTION                                                                 
+--------------------------------------------------------------------------------
+JOB_CHG_HOUR JOB_LAST_                                                          
+------------ ---------                                                          
+507                                                                             
+DSS Analyst                                                                     
+       45.95 20-NOV-09                                                          
+                                                                                
+508                                                                             
+Applications Designer                                                           
+        45.1 24-MAR-10                                                          
+
+JOB                                                                             
+---                                                                             
+JOB_DESCRIPTION                                                                 
+--------------------------------------------------------------------------------
+JOB_CHG_HOUR JOB_LAST_                                                          
+------------ ---------                                                          
+                                                                                
+509                                                                             
+Bin Technician                                                                  
+       34.55 20-NOV-09                                                          
+                                                                                
+510                                                                             
+General Support                                                                 
+
+JOB                                                                             
+---                                                                             
+JOB_DESCRIPTION                                                                 
+--------------------------------------------------------------------------------
+JOB_CHG_HOUR JOB_LAST_                                                          
+------------ ---------                                                          
+       18.36 20-NOV-09                                                          
+                                                                                
+
+11 rows selected.
+
+
+EMP EMP_LNAME       EMP_FNAME       E EMP_HIRED JOB  EMP_YEARS                  
+--- --------------- --------------- - --------- --- ----------                  
+101 News            John            G 08-NOV-00 502          4                  
+102 Senior          David           H 12-JUL-89 501         15                  
+103 Arbough         June            E 01-DEC-96 503          8                  
+104 Ramoras         Anne            K 15-NOV-87 501         17                  
+105 Johnson         Alice           K 01-FEB-93 502         12                  
+106 Smithfield      William           22-JUN-04 500          0                  
+107 Alonzo          Maria           D 10-OCT-93 500         11                  
+108 Washington      Ralph           B 22-AUG-91 501         13                  
+109 Smith           Larry           W 18-JUL-97 501          7                  
+110 Olenko          Gerald          A 11-DEC-95 505          9                  
+111 Wabash          Geoff           B 04-APR-91 506         14                  
+
+EMP EMP_LNAME       EMP_FNAME       E EMP_HIRED JOB  EMP_YEARS                  
+--- --------------- --------------- - --------- --- ----------                  
+112 Smithson        Darlene         M 23-OCT-94 507         10                  
+113 Joenbrood       Delbert         K 15-NOV-96 508          8                  
+114 Jones           Annelise          20-AUG-93 508         11                  
+115 Bawangi         Travis          B 25-JAN-92 501         13                  
+116 Pratt           Gerald          L 05-MAR-97 510          8                  
+117 Williamson      Angie           H 19-JUN-96 509          8                  
+118 Frommer         James           J 04-JAN-05 510          0                  
+
+18 rows selected.
+
+
+PR PROJ_NAME                                               PROJ_VALUE           
+-- ------------------------------------------------------- ----------           
+PROJ_BALANCE EMP                                                                
+------------ ---                                                                
+15 Evergreen                                                  1453500           
+     1002350 103                                                                
+                                                                                
+18 Amber Wave                                                 3500500           
+     2110046 106                                                                
+                                                                                
+22 Rolling Tide                                                305000           
+    500345.2 102                                                                
+                                                                                
+
+PR PROJ_NAME                                               PROJ_VALUE           
+-- ------------------------------------------------------- ----------           
+PROJ_BALANCE EMP                                                                
+------------ ---                                                                
+25 Starlight                                                  2550500           
+     2309880 107                                                                
+                                                                                
+
+
+ASSI ASSIGN_DA PR EMP ASS ASSIGN_CHG_HR ASSIGN_HOURS ASSIGN_CHARGE              
+---- --------- -- --- --- ------------- ------------ -------------              
+1001 22-MAR-12 18 103 503          84.5          3.5           296              
+1002 22-MAR-12 22 117 508          34.6          4.2           145              
+1003 22-MAR-12 18 117 509          34.6            2          69.3              
+1004 22-MAR-12 18 103 503          84.5          5.9           400              
+1005 22-MAR-12 25 106 501          96.8          2.2           213              
+1006 22-MAR-12 22 104 501          96.8          4.2           400              
+1007 22-MAR-12 25 113 508          50.8          3.8          92.8              
+1008 22-MAR-12 18 103 509          84.9          8.9          75.1              
+1009 23-MAR-12 15 115 501          86.8          5.6           542              
+1110 23-MAR-12 15 117 508          34.6          2.4          82.8              
+1111 23-MAR-12 25 105 502           105          4.3           452              
+
+ASSI ASSIGN_DA PR EMP ASS ASSIGN_CHG_HR ASSIGN_HOURS ASSIGN_CHARGE              
+---- --------- -- --- --- ------------- ------------ -------------              
+1112 23-MAR-12 18 108 501          96.8          3.4           321              
+1113 23-MAR-12 25 115 501          96.8            2           183              
+1114 23-MAR-12 22 104 501          6.75          2.5           271              
+1115 23-MAR-12 15 103 503          84.9          6.1           535              
+1116 23-MAR-12 22 105 502           105          4.7           494              
+1117 23-MAR-12 18 117 509          34.6          3.8           131              
+1118 23-MAR-12 25 117 509          34.6          2.2            75              
+1119 24-MAR-12 25 104 501           116          4.9           541              
+1120 24-MAR-12 15 101 502           125          3.1           388              
+1121 24-MAR-12 22 109 501           111          2.7           298              
+1122 24-MAR-12 22 115 501           111          4.9           541              
+
+ASSI ASSIGN_DA PR EMP ASS ASSIGN_CHG_HR ASSIGN_HOURS ASSIGN_CHARGE              
+---- --------- -- --- --- ------------- ------------ -------------              
+1123 24-MAR-12 22 105 502           125          3.5           438              
+1124 24-MAR-12 15 103 503          64.9          3.3           280              
+1125 24-MAR-12 18 117 509          34.6          4.2           145              
+
+25 rows selected.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+JOB                                                                             
+---                                                                             
+JOB_DESCRIPTION                                                                 
+--------------------------------------------------------------------------------
+JOB_CHG_HOUR JOB_LAST_                                                          
+------------ ---------                                                          
+500                                                                             
+Programmer                                                                      
+       35.75 20-NOV-09                                                          
+                                                                                
+501                                                                             
+Systems Analyst                                                                 
+       35.75 20-NOV-09                                                          
+
+JOB                                                                             
+---                                                                             
+JOB_DESCRIPTION                                                                 
+--------------------------------------------------------------------------------
+JOB_CHG_HOUR JOB_LAST_                                                          
+------------ ---------                                                          
+                                                                                
+502                                                                             
+Database Designer                                                               
+         125 24-MAR-10                                                          
+                                                                                
+503                                                                             
+Electrical Engineer                                                             
+
+JOB                                                                             
+---                                                                             
+JOB_DESCRIPTION                                                                 
+--------------------------------------------------------------------------------
+JOB_CHG_HOUR JOB_LAST_                                                          
+------------ ---------                                                          
+        54.5 20-NOV-05                                                          
+                                                                                
+504                                                                             
+Mechanical Engineer                                                             
+        57.9 20-NOV-09                                                          
+                                                                                
+505                                                                             
+
+JOB                                                                             
+---                                                                             
+JOB_DESCRIPTION                                                                 
+--------------------------------------------------------------------------------
+JOB_CHG_HOUR JOB_LAST_                                                          
+------------ ---------                                                          
+Civil Engineer                                                                  
+       55.78 20-NOV-09                                                          
+                                                                                
+506                                                                             
+Clerical Support                                                                
+       25.87 20-NOV-09                                                          
+                                                                                
+
+JOB                                                                             
+---                                                                             
+JOB_DESCRIPTION                                                                 
+--------------------------------------------------------------------------------
+JOB_CHG_HOUR JOB_LAST_                                                          
+------------ ---------                                                          
+507                                                                             
+DSS Analyst                                                                     
+       45.95 20-NOV-09                                                          
+                                                                                
+508                                                                             
+Applications Designer                                                           
+        45.1 24-MAR-10                                                          
+
+JOB                                                                             
+---                                                                             
+JOB_DESCRIPTION                                                                 
+--------------------------------------------------------------------------------
+JOB_CHG_HOUR JOB_LAST_                                                          
+------------ ---------                                                          
+                                                                                
+509                                                                             
+Bin Technician                                                                  
+       34.55 20-NOV-09                                                          
+                                                                                
+510                                                                             
+General Support                                                                 
+
+JOB                                                                             
+---                                                                             
+JOB_DESCRIPTION                                                                 
+--------------------------------------------------------------------------------
+JOB_CHG_HOUR JOB_LAST_                                                          
+------------ ---------                                                          
+       18.36 20-NOV-09                                                          
+                                                                                
+511                                                                             
+Clerical                                                                        
+       20.25 20-NOV-09                                                          
+                                                                                
+512                                                                             
+
+JOB                                                                             
+---                                                                             
+JOB_DESCRIPTION                                                                 
+--------------------------------------------------------------------------------
+JOB_CHG_HOUR JOB_LAST_                                                          
+------------ ---------                                                          
+Manager                                                                         
+         150 20-NOV-09                                                          
+                                                                                
+513                                                                             
+Sales Person                                                                    
+         125 24-MAR-10                                                          
+                                                                                
+
+JOB                                                                             
+---                                                                             
+JOB_DESCRIPTION                                                                 
+--------------------------------------------------------------------------------
+JOB_CHG_HOUR JOB_LAST_                                                          
+------------ ---------                                                          
+514                                                                             
+Janitor                                                                         
+        17.5 20-NOV-05                                                          
+                                                                                
+515                                                                             
+Consultant                                                                      
+        57.9 20-NOV-09                                                          
+
+JOB                                                                             
+---                                                                             
+JOB_DESCRIPTION                                                                 
+--------------------------------------------------------------------------------
+JOB_CHG_HOUR JOB_LAST_                                                          
+------------ ---------                                                          
+                                                                                
+
+16 rows selected.
+
+
+EMP EMP_LNAME       EMP_FNAME       E EMP_HIRED JOB  EMP_YEARS                  
+--- --------------- --------------- - --------- --- ----------                  
+101 News            John            G 08-NOV-00 502          4                  
+102 Senior          David           H 12-JUL-89 501         15                  
+103 Arbough         June            E 01-DEC-96 503          8                  
+104 Ramoras         Anne            K 15-NOV-87 501         17                  
+105 Johnson         Alice           K 01-FEB-93 502         12                  
+106 Smithfield      William           22-JUN-04 500          0                  
+107 Alonzo          Maria           D 10-OCT-93 500         11                  
+108 Washington      Ralph           B 22-AUG-91 501         13                  
+109 Smith           Larry           W 18-JUL-97 501          7                  
+110 Olenko          Gerald          A 11-DEC-95 505          9                  
+111 Wabash          Geoff           B 04-APR-91 506         14                  
+
+EMP EMP_LNAME       EMP_FNAME       E EMP_HIRED JOB  EMP_YEARS                  
+--- --------------- --------------- - --------- --- ----------                  
+112 Smithson        Darlene         M 23-OCT-94 507         10                  
+113 Joenbrood       Delbert         K 15-NOV-96 508          8                  
+114 Jones           Annelise          20-AUG-93 508         11                  
+115 Bawangi         Travis          B 25-JAN-92 501         13                  
+116 Pratt           Gerald          L 05-MAR-97 510          8                  
+117 Williamson      Angie           H 19-JUN-96 509          8                  
+118 Frommer         James           J 04-JAN-05 510          0                  
+119 Rivers          Jarett          R 08-NOV-00 502          4                  
+120 Payton          Lela            M 12-JUL-89 501         15                  
+121 Johnson         Gabrielle       E 01-DEC-96 503          8                  
+122 Lanston         Tamara          L 15-NOV-87 501         17                  
+
+EMP EMP_LNAME       EMP_FNAME       E EMP_HIRED JOB  EMP_YEARS                  
+--- --------------- --------------- - --------- --- ----------                  
+123 Jones           Roy             M 01-FEB-93 502         12                  
+
+23 rows selected.
+
+
+PR PROJ_NAME                                               PROJ_VALUE           
+-- ------------------------------------------------------- ----------           
+PROJ_BALANCE EMP                                                                
+------------ ---                                                                
+15 Evergreen                                                  1453500           
+     1002350 103                                                                
+                                                                                
+18 Amber Wave                                                 3500500           
+     2110046 106                                                                
+                                                                                
+22 Rolling Tide                                                305000           
+    500345.2 102                                                                
+                                                                                
+
+PR PROJ_NAME                                               PROJ_VALUE           
+-- ------------------------------------------------------- ----------           
+PROJ_BALANCE EMP                                                                
+------------ ---                                                                
+25 Starlight                                                  2550500           
+     2309880 107                                                                
+                                                                                
+27 Great America                                              1843500           
+     1001100 120                                                                
+                                                                                
+32 Crouching Tiger                                            4200500           
+     3010046 121                                                                
+                                                                                
+
+PR PROJ_NAME                                               PROJ_VALUE           
+-- ------------------------------------------------------- ----------           
+PROJ_BALANCE EMP                                                                
+------------ ---                                                                
+38 Black Forest                                                 74000           
+    500345.2 119                                                                
+                                                                                
+42 Candy Isle                                                 2550500           
+     2309880 123                                                                
+                                                                                
+47 Chunky Road                                                5698500           
+     3562880 122                                                                
+                                                                                
+
+9 rows selected.
+
+
+ASSI ASSIGN_DA PR EMP ASS ASSIGN_CHG_HR ASSIGN_HOURS ASSIGN_CHARGE              
+---- --------- -- --- --- ------------- ------------ -------------              
+1001 22-MAR-12 18 103 503          84.5          3.5           296              
+1002 22-MAR-12 22 117 508          34.6          4.2           145              
+1003 22-MAR-12 18 117 509          34.6            2          69.3              
+1004 22-MAR-12 18 103 503          84.5          5.9           400              
+1005 22-MAR-12 25 106 501          96.8          2.2           213              
+1006 22-MAR-12 22 104 501          96.8          4.2           400              
+1007 22-MAR-12 25 113 508          50.8          3.8          92.8              
+1008 22-MAR-12 18 103 509          84.9          8.9          75.1              
+1009 23-MAR-12 15 115 501          86.8          5.6           542              
+1110 23-MAR-12 15 117 508          34.6          2.4          82.8              
+1111 23-MAR-12 25 105 502           105          4.3           452              
+
+ASSI ASSIGN_DA PR EMP ASS ASSIGN_CHG_HR ASSIGN_HOURS ASSIGN_CHARGE              
+---- --------- -- --- --- ------------- ------------ -------------              
+1112 23-MAR-12 18 108 501          96.8          3.4           321              
+1113 23-MAR-12 25 115 501          96.8            2           183              
+1114 23-MAR-12 22 104 501          6.75          2.5           271              
+1115 23-MAR-12 15 103 503          84.9          6.1           535              
+1116 23-MAR-12 22 105 502           105          4.7           494              
+1117 23-MAR-12 18 117 509          34.6          3.8           131              
+1118 23-MAR-12 25 117 509          34.6          2.2            75              
+1119 24-MAR-12 25 104 501           116          4.9           541              
+1120 24-MAR-12 15 101 502           125          3.1           388              
+1121 24-MAR-12 22 109 501           111          2.7           298              
+1122 24-MAR-12 22 115 501           111          4.9           541              
+
+ASSI ASSIGN_DA PR EMP ASS ASSIGN_CHG_HR ASSIGN_HOURS ASSIGN_CHARGE              
+---- --------- -- --- --- ------------- ------------ -------------              
+1123 24-MAR-12 22 105 502           125          3.5           438              
+1124 24-MAR-12 15 103 503          64.9          3.3           280              
+1125 24-MAR-12 18 117 509          34.6          4.2           145              
+1126 25-MAR-12 18 103 503          84.5          3.5           296              
+1127 25-MAR-12 22 117 508          34.6          4.2           145              
+1128 25-MAR-12 18 117 509          34.6            2          69.3              
+1129 25-MAR-12 18 103 503          84.5          5.9           400              
+1130 25-MAR-12 25 106 501          96.8          2.2           213              
+
+30 rows selected.
+
+
+Table created.
+
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ EMP_NUM                                   NOT NULL CHAR(3)
+ EMP_LNAME                                          VARCHAR2(15)
+ EMP_FNAME                                          VARCHAR2(15)
+ EMP_INITIAL                                        CHAR(1)
+ EMP_HIREDATE                                       DATE
+ JOB_CODE                                           CHAR(3)
+
+
+2 rows created.
+
+
+EMP EMP_LNAME       EMP_FNAME       E EMP_HIRED JOB                             
+--- --------------- --------------- - --------- ---                             
+101 News            John            G 08-NOV-00 502                             
+102 Senior          David           H 12-JUL-89 501                             
+
+
+7 rows created.
+
+
+EMP EMP_LNAME       EMP_FNAME       E EMP_HIRED JOB                             
+--- --------------- --------------- - --------- ---                             
+101 News            John            G 08-NOV-00 502                             
+102 Senior          David           H 12-JUL-89 501                             
+103 Arbough         June            E 01-DEC-96 503                             
+104 Ramoras         Anne            K 15-NOV-87 501                             
+105 Johnson         Alice           K 01-FEB-93 502                             
+106 Smithfield      William           22-JUN-04 500                             
+107 Alonzo          Maria           D 10-OCT-93 500                             
+108 Washington      Ralph           B 22-AUG-91 501                             
+109 Smith           Larry           W 18-JUL-97 501                             
+
+9 rows selected.
+
+
+EMP EMP_LNAME       EMP_FNAME       E EMP_HIRED JOB                             
+--- --------------- --------------- - --------- ---                             
+101 News            John            G 08-NOV-00 502                             
+105 Johnson         Alice           K 01-FEB-93 502                             
+
+
+Commit complete.
+
+
+1 row updated.
+
+
+EMP EMP_LNAME       EMP_FNAME       E EMP_HIRED JOB                             
+--- --------------- --------------- - --------- ---                             
+107 Alonzo          Maria           D 10-OCT-93 501                             
+
+
+1 row updated.
+
+
+EMP EMP_LNAME       EMP_FNAME       E EMP_HIRED JOB                             
+--- --------------- --------------- - --------- ---                             
+107 Alonzo          Maria           D 10-OCT-93 500                             
+
+
+1 row deleted.
+
+
+EMP EMP_LNAME       EMP_FNAME       E EMP_HIRED JOB                             
+--- --------------- --------------- - --------- ---                             
+101 News            John            G 08-NOV-00 502                             
+102 Senior          David           H 12-JUL-89 501                             
+103 Arbough         June            E 01-DEC-96 503                             
+104 Ramoras         Anne            K 15-NOV-87 501                             
+105 Johnson         Alice           K 01-FEB-93 502                             
+107 Alonzo          Maria           D 10-OCT-93 500                             
+108 Washington      Ralph           B 22-AUG-91 501                             
+109 Smith           Larry           W 18-JUL-97 501                             
+
+8 rows selected.
+
+
+Rollback complete.
+
+
+EMP EMP_LNAME       EMP_FNAME       E EMP_HIRED JOB                             
+--- --------------- --------------- - --------- ---                             
+101 News            John            G 08-NOV-00 502                             
+102 Senior          David           H 12-JUL-89 501                             
+103 Arbough         June            E 01-DEC-96 503                             
+104 Ramoras         Anne            K 15-NOV-87 501                             
+105 Johnson         Alice           K 01-FEB-93 502                             
+106 Smithfield      William           22-JUN-04 500                             
+107 Alonzo          Maria           D 10-OCT-93 500                             
+108 Washington      Ralph           B 22-AUG-91 501                             
+109 Smith           Larry           W 18-JUL-97 501                             
+
+9 rows selected.
+
+
+Table created.
+
+
+EMP EMP_LNAME       EMP_FNAME       E EMP_HIRED JOB                             
+--- --------------- --------------- - --------- ---                             
+101 News            John            G 08-NOV-00 502                             
+102 Senior          David           H 12-JUL-89 501                             
+103 Arbough         June            E 01-DEC-96 503                             
+104 Ramoras         Anne            K 15-NOV-87 501                             
+105 Johnson         Alice           K 01-FEB-93 502                             
+106 Smithfield      William           22-JUN-04 500                             
+107 Alonzo          Maria           D 10-OCT-93 500                             
+108 Washington      Ralph           B 22-AUG-91 501                             
+109 Smith           Larry           W 18-JUL-97 501                             
+
+9 rows selected.
+
+
+Table altered.
+
+
+EMP EMP_LNAME       EMP_FNAME       E EMP_HIRED JOB    EMP_PCT PRO              
+--- --------------- --------------- - --------- --- ---------- ---              
+101 News            John            G 08-NOV-00 502                             
+102 Senior          David           H 12-JUL-89 501                             
+103 Arbough         June            E 01-DEC-96 503                             
+104 Ramoras         Anne            K 15-NOV-87 501                             
+105 Johnson         Alice           K 01-FEB-93 502                             
+106 Smithfield      William           22-JUN-04 500                             
+107 Alonzo          Maria           D 10-OCT-93 500                             
+108 Washington      Ralph           B 22-AUG-91 501                             
+109 Smith           Larry           W 18-JUL-97 501                             
+
+9 rows selected.
+
+
+1 row updated.
+
+
+2 rows updated.
+
+
+2 rows updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+2 rows updated.
+
+
+3 rows updated.
+
+
+5 rows updated.
+
+
+EMP EMP_LNAME       EMP_FNAME       E EMP_HIRED JOB    EMP_PCT PRO              
+--- --------------- --------------- - --------- --- ---------- ---              
+101 News            John            G 08-NOV-00 502          5 25               
+102 Senior          David           H 12-JUL-89 501          8 14               
+103 Arbough         June            E 01-DEC-96 503       3.85 25               
+104 Ramoras         Anne            K 15-NOV-87 501         10 14               
+105 Johnson         Alice           K 01-FEB-93 502          5 14               
+106 Smithfield      William           22-JUN-04 500        6.2 18               
+107 Alonzo          Maria           D 10-OCT-93 500       5.15 14               
+108 Washington      Ralph           B 22-AUG-91 501         10 14               
+109 Smith           Larry           W 18-JUL-97 501          2                  
+
+9 rows selected.
+
+
+Table created.
+
+
+EMP    EMP_PCT                                                                  
+--- ----------                                                                  
+101          5                                                                  
+102          8                                                                  
+103       3.85                                                                  
+104         10                                                                  
+105          5                                                                  
+106        6.2                                                                  
+107       5.15                                                                  
+108         10                                                                  
+109          2                                                                  
+
+9 rows selected.
+
+
+Table dropped.
+
+
+EMP EMP_LNAME       EMP_FNAME       E EMP_HIRED JOB    EMP_PCT PRO              
+--- --------------- --------------- - --------- --- ---------- ---              
+106 Smithfield      William           22-JUN-04 500        6.2 18               
+109 Smith           Larry           W 18-JUL-97 501          2                  
+
+
+PROJ_NAME                                               PROJ_BALANCE EMP        
+------------------------------------------------------- ------------ ---        
+EMP_LNAME       E JOB                                                           
+--------------- - ---                                                           
+JOB_DESCRIPTION                                                                 
+--------------------------------------------------------------------------------
+JOB_CHG_HOUR                                                                    
+------------                                                                    
+Starlight                                                    2309880 107        
+Alonzo          D 500                                                           
+Programmer                                                                      
+       35.75                                                                    
+                                                                                
+
+PROJ_NAME                                               PROJ_BALANCE EMP        
+------------------------------------------------------- ------------ ---        
+EMP_LNAME       E JOB                                                           
+--------------- - ---                                                           
+JOB_DESCRIPTION                                                                 
+--------------------------------------------------------------------------------
+JOB_CHG_HOUR                                                                    
+------------                                                                    
+Amber Wave                                                   2110046 106        
+Smithfield        500                                                           
+Programmer                                                                      
+       35.75                                                                    
+                                                                                
+
+PROJ_NAME                                               PROJ_BALANCE EMP        
+------------------------------------------------------- ------------ ---        
+EMP_LNAME       E JOB                                                           
+--------------- - ---                                                           
+JOB_DESCRIPTION                                                                 
+--------------------------------------------------------------------------------
+JOB_CHG_HOUR                                                                    
+------------                                                                    
+Chunky Road                                                  3562880 122        
+Lanston         L 501                                                           
+Systems Analyst                                                                 
+       35.75                                                                    
+                                                                                
+
+PROJ_NAME                                               PROJ_BALANCE EMP        
+------------------------------------------------------- ------------ ---        
+EMP_LNAME       E JOB                                                           
+--------------- - ---                                                           
+JOB_DESCRIPTION                                                                 
+--------------------------------------------------------------------------------
+JOB_CHG_HOUR                                                                    
+------------                                                                    
+Great America                                                1001100 120        
+Payton          M 501                                                           
+Systems Analyst                                                                 
+       35.75                                                                    
+                                                                                
+
+PROJ_NAME                                               PROJ_BALANCE EMP        
+------------------------------------------------------- ------------ ---        
+EMP_LNAME       E JOB                                                           
+--------------- - ---                                                           
+JOB_DESCRIPTION                                                                 
+--------------------------------------------------------------------------------
+JOB_CHG_HOUR                                                                    
+------------                                                                    
+Rolling Tide                                                500345.2 102        
+Senior          H 501                                                           
+Systems Analyst                                                                 
+       35.75                                                                    
+                                                                                
+
+
+View created.
+
+
+AVG(EMP_PCT)                                                                    
+------------                                                                    
+  6.13333333                                                                    
+
+
+EMP EMP_LNAME       EMP_FNAME       E EMP_HIRED JOB    EMP_PCT PRO              
+--- --------------- --------------- - --------- --- ---------- ---              
+109 Smith           Larry           W 18-JUL-97 501          2                  
+103 Arbough         June            E 01-DEC-96 503       3.85 25               
+101 News            John            G 08-NOV-00 502          5 25               
+105 Johnson         Alice           K 01-FEB-93 502          5 14               
+107 Alonzo          Maria           D 10-OCT-93 500       5.15 14               
+106 Smithfield      William           22-JUN-04 500        6.2 18               
+102 Senior          David           H 12-JUL-89 501          8 14               
+108 Washington      Ralph           B 22-AUG-91 501         10 14               
+104 Ramoras         Anne            K 15-NOV-87 501         10 14               
+
+9 rows selected.
+
+
+PRO                                                                             
+---                                                                             
+                                                                                
+18                                                                              
+25                                                                              
+14                                                                              
+
+
+ASSIGN_CHG_HR ASSIGN_HOURS ASSIGN_CHARGE                                        
+------------- ------------ -------------                                        
+         84.5          3.5        295.75                                        
+         34.6          4.2        145.32                                        
+         34.6            2          69.2                                        
+         84.5          5.9        498.55                                        
+         96.8          2.2        212.96                                        
+         96.8          4.2        406.56                                        
+         50.8          3.8        193.04                                        
+         84.9          8.9        755.61                                        
+         86.8          5.6        486.08                                        
+         34.6          2.4         83.04                                        
+          105          4.3         451.5                                        
+
+ASSIGN_CHG_HR ASSIGN_HOURS ASSIGN_CHARGE                                        
+------------- ------------ -------------                                        
+         96.8          3.4        329.12                                        
+         96.8            2         193.6                                        
+         6.75          2.5        16.875                                        
+         84.9          6.1        517.89                                        
+          105          4.7         493.5                                        
+         34.6          3.8        131.48                                        
+         34.6          2.2         76.12                                        
+          116          4.9         568.4                                        
+          125          3.1         387.5                                        
+          111          2.7         299.7                                        
+          111          4.9         543.9                                        
+
+ASSIGN_CHG_HR ASSIGN_HOURS ASSIGN_CHARGE                                        
+------------- ------------ -------------                                        
+          125          3.5         437.5                                        
+         64.9          3.3        214.17                                        
+         34.6          4.2        145.32                                        
+         84.5          3.5        295.75                                        
+         34.6          4.2        145.32                                        
+         34.6            2          69.2                                        
+         84.5          5.9        498.55                                        
+         96.8          2.2        212.96                                        
+
+30 rows selected.
+
+
+EMP SUM(ASSIGNMENT.ASSIGN_CHARGE) EMP_LNAME       SUM(ASSIGNMENT.ASSIGN_HOURS)  
+--- ----------------------------- --------------- ----------------------------  
+101                           388 News                                     3.1  
+108                           321 Washington                               3.4  
+105                          1384 Johnson                                 12.5  
+117                         862.4 Williamson                                25  
+106                           426 Smithfield                               4.4  
+113                          92.8 Joenbrood                                3.8  
+104                          1212 Ramoras                                 11.6  
+109                           298 Smith                                    2.7  
+103                        2282.1 Arbough                                 37.1  
+115                          1266 Bawangi                                 12.5  
+
+10 rows selected.
+
+
+PR SUM(ASSIGN_HOURS) SUM(ASSIGN_CHG_HR)                                         
+-- ----------------- ------------------                                         
+18              43.1              658.1                                         
+22              30.9             624.75                                         
+25              21.6              596.8                                         
+15              20.5              396.2                                         
+
+
+SUMOFASSIGN_HOURS SUMOFASSIGN_CHARGE                                            
+----------------- ------------------                                            
+            116.1             8532.3                                            
+
+
+SUMOFASSIGN_HOURS SUMOFASSIGN_CHARGE                                            
+----------------- ------------------                                            
+            116.1             8532.3                                            
+
+SQL> spool off;
